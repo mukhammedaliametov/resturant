@@ -9,3 +9,7 @@
 .font-monrope {
   font-family: 'Manrope', sans-serif;
 }
+
+.hero-gradient{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+}

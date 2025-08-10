@@ -7,7 +7,7 @@ import { CiMail } from "react-icons/ci";
 
 const TopHeader = () => {
     return (
-        <div className='flex items-center justify-between p-[20px] container'>
+        <div className='flex items-center justify-between pb-[25px] pt-[6px] px-[25px] container'>
             <div className='hidden md:flex items-center gap-[20px]'>
                 <a href="tel: +998948330681" className='flex items-center font-rubik font-monrope gap-[8px]'><FaPhone className='text-[20px]' />+998(94)833-06-81</a>
                 <a href="mailto: info@bmgsoft.com" className='flex items-center font-rubik font-monrope gap-[8px]'><CiMail className='text-[24px]' />info@bmgsoft.com</a>
