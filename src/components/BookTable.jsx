@@ -55,7 +55,7 @@ const BookTable = () => {
       <div className="hidden md:block relative right-[-5%]">
         <img src={Pizza} alt="pizza" />
       </div>
-      <div>
+      <div className="hidden md:block">
         <img src={Leaf1} alt="leaf1" className="absolute w-[250px] left-[532px] top-[1437px] rotation-114" />
         <img src={Leaf1} alt="leaf1" className="absolute w-[250px] left-[663px] top-[2021px] rotation-129" />
       </div>

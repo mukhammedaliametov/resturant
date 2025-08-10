@@ -19,7 +19,7 @@ const App = () => {
         <WhyChooseUs />
         <NewsGallery />
       </main>
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 };

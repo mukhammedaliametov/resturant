@@ -107,7 +107,7 @@ const PopularDishes = () => {
         <Button name="Посмотреть меню" />
       </div>
       <div className="hidden md:block">
-        <img src={Leaf2} alt="leaf2" className="absolute w-[150px] top-[932px] left-[1164px] rotate-66" />
+        <img src={Leaf2} alt="leaf2" className="absolute w-[150px] top-[932px] left-[114px] rotate-66" />
         <img src={Leaf3} alt="leaf3" className="absolute w-[150px] top-[1200px] left-0" />
       </div>
     </div>
