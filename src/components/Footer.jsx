@@ -15,7 +15,7 @@ const Footer = () => {
       style={{ backgroundImage: `url(${FooterBg})` }}
     >
       <div className="backdrop-blur-sm bg-[#ffffff54] min-h-[20vh] ">
-        <div className="container font-monrope flex flex-col items-start justify-between py-[40px] gap-[20px] px-[20px] md:px-0">
+        <div className="container font-monrope flex flex-col md:flex-row items-start justify-between py-[40px] gap-[20px] px-[20px] md:px-0">
         <div className="flex flex-col gap-[10px]">
           <img src={Logo} alt="logo" />
           <div className="flex items-center gap-[20px] mt-[10px]">
@@ -25,7 +25,7 @@ const Footer = () => {
             <FaFacebook />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-[10px]">
+        <div className="flex flex-col gap-[10px]">
           <a href="" className="text-[20px] font-bold">Наши услуги</a>
           <a href="">Цены</a>
           <a href="">Cообщить об ошибке</a>
