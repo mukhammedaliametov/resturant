@@ -25,7 +25,7 @@ const Footer = () => {
             <FaFacebook />
           </div>
         </div>
-        <div className="flex flex-col gap-[10px]">
+        <div className="flex flex-col md:flex-row gap-[10px]">
           <a href="" className="text-[20px] font-bold">Наши услуги</a>
           <a href="">Цены</a>
           <a href="">Cообщить об ошибке</a>
